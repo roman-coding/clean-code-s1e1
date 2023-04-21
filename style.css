@@ -37,7 +37,7 @@
   .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
   }
 
   .task-row-wrapper {
@@ -140,7 +140,7 @@
   }
 
   .list-item > .input-text {
-    width: 226px
+    width: 226px;
   }
 
   .list-item-img {
@@ -162,12 +162,12 @@
 
   /* Edit Task */
   .list .list-item .input-text {
-    display: none
+    display: none;
   }
 
   .list .list-item.edit-mode .input-text {
     display: inline-block;
-    width: 224px
+    width: 224px;
   }
 
   .list .list-item.edit-mode .list-label {
