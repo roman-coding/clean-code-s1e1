@@ -83,7 +83,7 @@ var editTask=function(){
     var listItem=this.parentNode;
 
     var editInput=listItem.querySelector('.input-text');
-    var label=listItem.querySelector(".list-label");
+    var label=listItem.querySelector(".list__label");
     var editBtn=listItem.querySelector(".btn-edit");
     var containsClass=listItem.classList.contains("edit-mode");
     //If class of the parent is .edit-mode
@@ -156,7 +156,7 @@ var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
     console.log("bind list item events");
 //select ListItems children
     var checkBox=taskListItem.querySelector(".input-checkbox");
-    var editButton=taskListItem.querySelector(".btn.edit");
+    var editButton=taskListItem.querySelector(".btn-edit");
     var deleteButton=taskListItem.querySelector(".btn-delete");
 
 
